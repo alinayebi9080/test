@@ -4,7 +4,6 @@ import Header from "../../components/navbar/Navbar";
 import HeroSection from "../../components/hero/HeroSection";
 import Carousel from "../../components/carousels/Carousel";
 import UserMyList from "../../components/userMyList/UserMyList";
-import tvShow from "../../components/movieCategoriesCarousels/PopularMovies";
 import Top10MoviesUK from "../../components/movieCategoriesCarousels/TopTenUk";
 import Upcoming from "../../components/movieCategoriesCarousels/UpcomingMovies";
 import PopularMovies from "../../components/movieCategoriesCarousels/PopularMovies";
@@ -38,12 +37,10 @@ const Home = () => {
         <Top10MoviesUK />
         <Upcoming />
 
-
         <Carousel title="Kaveh, keep watching" items={KavehKeepWatching} />
         <Carousel title="Netflix Original Content" items={netflixOriginals} />
 
         <Footer />
-
       </div>
     </>
   );
